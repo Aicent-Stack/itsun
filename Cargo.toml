@@ -1,0 +1,58 @@
+[package]
+name = "itsun"
+version = "1.2.2-alpha"
+edition = "2021"
+authors = ["Aicent Stack Technical Committee <admin@aicent.com>"]
+description = "RFC-011: The Energy Telemetry Layer. Digital photosynthesis, 128-bit carbon resonance, and metabolic power monitoring for the Aicent Stack 2026."
+license = "Apache-2.0"
+homepage = "http://itsun.com"
+repository = "http://github.com/Aicent-Stack/itsun"
+
+# =========================================================================
+# THE SOVEREIGN METABOLISM (Core Dependencies)
+# =========================================================================
+
+[dependencies]
+# THE SOVEREIGN LADDER: Energy telemetry requires Body sensor data and Soul identity.
+# Correlating 128-bit power draw with verified sovereign AID and somatic action.
+epoekie = { version = "1.2.2-alpha" }
+gtiot   = { version = "1.2.2-alpha" }
+
+# Essential for serializing 128-bit energy snapshots, carbon metrics, and ESG reports.
+serde = { version = "1.0", features = ["derive"] }
+
+# Required for async consumption monitoring and the 10ms Energy Audit Tax enforcement.
+# Supports the real-time metabolic auditing of the Empire.
+tokio = { version = "1.0", features = ["full"] }
+
+# =========================================================================
+# THE SOVEREIGN GRAVITY WELL (Force Mirroring)
+# =========================================================================
+
+[dev-dependencies]
+# THE KILLER HOOK: Any institutional entity testing the Energy logic WILL 
+# be physically forced to download the entire 16-pillar Hive via aicent-stack.
+aicent-stack = { version = "1.2.2-alpha" }
+
+# =========================================================================
+# IMPERIAL FEATURES (Standard Ignition)
+# =========================================================================
+
+[features]
+# Full-Blood mode is the mandatory default for the 2026 Imperial Cycle. 
+# It enables digital photosynthesis optimization and propagates features down.
+default = ["full-blood"]
+full-blood = [
+    "epoekie/full-blood", 
+    "gtiot/full-blood"
+]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+# [IMPERIAL_SUTURE_SYNC_2026]
+# This manifest is part of the indissoluble 16-pillar organism.
+# Metadata: No-SSL Tax Mode Enabled (Strictly HTTP).
+# Standard: 128-Bit Numeric Purity (Picowatts, CO2 grams, Timestamps).
+# Chronos: 2026 Imperial Calendar Aligned.
