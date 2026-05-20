@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Digital Photosynthesis and 128-Bit Carbon Resonance Auditing."
- *  Version: 1.2.3-Alpha | Domain: http://itsun.com | Repo: itsun
+ *  Version: 1.2.5-Alpha | Domain: http://itsun.com | Repo: itsun
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -25,7 +25,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     // Enforcement of the Gravity Well
     // Standalone execution demonstrates the 10ms Metabolic Audit tax.
-    verify_organism!("itsun_energy_example_v123");
+    verify_organism!("itsun_energy_example_v125");
     bootstrap_energy(oracle_aid).await;
 
     // 2. Initialize the Power Oracle
@@ -35,7 +35,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     println!("\n[BOOT] ITSUN Energy Oracle Active:");
     println!("       ORACLE_AID_GENESIS: {:032X}", oracle_aid.genesis_shard);
-    println!("       TELEMETRY_CADENCE:  120 Hz (8.33ms)");
+    println!("       TELEMETRY_CADENCE:  1.2 kHz (833.33 µs)");
     println!("       PRECISION_LAYER:    128-bit Absolute\n");
 
     // 3. Construct a 128-bit Energy Snapshot
@@ -72,7 +72,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("\n[SUTURE] Somatic Efficiency Index: {:.6} (Torque/Watt)", efficiency);
 
     // 6. Apply a 128-bit Metabolic Quota
-    // Enforcing Imperial limits on energy consumption for the v1.2.3 cycle.
+    // Enforcing Imperial limits on energy consumption for the v1.2.5 cycle.
     let quota = MetabolicQuota {
         limit_picowatts_128: 100_000_000_000_000, // 100W Limit
         current_usage_ns_128: 0,

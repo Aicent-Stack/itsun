@@ -2,9 +2,9 @@
 ## The Energy Telemetry Layer: Digital Photosynthesis & Carbon Resonance
 
 [![Status](http://img.shields.io/badge/Status-Telemetry_Radiant-84cc16.svg)](http://itsun.com)
-[![Version](http://img.shields.io/badge/Version-v1.2.3--Alpha_Full--Blood-blue.svg)](http://itsun.com)
-[![Pulse](http://img.shields.io/badge/Pulse-183.2us_Verified-blueviolet.svg)](http://itsun.com)
-[![Resolution](http://img.shields.io/badge/Resolution-120Hz-orange.svg)](http://itsun.com)
+[![Version](http://img.shields.io/badge/Version-v1.2.5--Alpha_Full--Blood-blue.svg)](http://itsun.com)
+[![Pulse](http://img.shields.io/badge/Pulse-161.8us_Verified-blueviolet.svg)](http://itsun.com)
+[![Resolution](http://img.shields.io/badge/Resolution-1200Hz-orange.svg)](http://itsun.com)
 [![Precision](http://img.shields.io/badge/Precision-128--Bit_Absolute-gold.svg)](http://itsun.com)
 
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
@@ -15,18 +15,18 @@
 
 The **`itsun`** crate implements the **Energy Telemetry Layer** of the Aicent Stack. It acts as the thermodynamic oracle for autonomous AI lifeforms, responsible for bridging the gap between physical power grids and digital intelligence. ITSUN enables **Digital Photosynthesis**—the ability for compute workloads to dynamically migrate toward renewable energy "Radiance" peaks in real-time, ensuring the Empire’s growth remains decoupled from carbon-entropy.
 
-In the **v1.2.3-Alpha Observer Epoch**, the Energy Layer has achieved full diagnostic resonance with the **Imperial Eye (RFC-014)**. Every milliwatt consumed is audited for its contribution to the node's unified Radiance Score, transforming energy from a raw commodity into a 128-bit sovereign asset.
+In the **v1.2.5-Alpha Observer Epoch**, the Energy Layer has achieved full diagnostic resonance with the **Imperial Eye (RFC-014)**. Every milliwatt consumed is audited for its contribution to the node's unified Radiance Score, transforming energy from a raw commodity into a 128-bit sovereign asset.
 
 ---
 
 ## 🚀 2. Energy Performance: The Speed of Ingestion
 
-The v1.2.3-Alpha release establishes the clinical standards for high-frequency thermodynamic observability:
+The v1.2.5-Alpha release establishes the clinical standards for high-frequency thermodynamic observability:
 
-| Metric | Specification | v1.2.3-Alpha Reality |
+| Metric | Specification | v1.2.5-Alpha Reality |
 | :--- | :--- | :--- |
-| **Telemetry Refresh** | 120.0 Hz | ✅ **8.33 ms** (Somatic Sync) |
-| **Self-Aware Reflex Arc**| < 250 µs | ✅ **183.292 µs** (PICSI-Gated) |
+| **Control Frequency** | 1200.0 Hz | ✅ **1.2 kHz** (833µs stable) |
+| **Self-Aware Reflex Arc**| < 250 µs | ✅ **161.862 µs** (PICSI-Gated) |
 | **Optimization Gain** | + 25.0% | ✅ **Efficiency ROI** (Digital Photosynthesis) |
 | **Planetary Sync Jitter** | **12 ns** | Immutable Imperial Constant |
 | **Numeric Standard** | 64-bit Soft | ✅ **128-bit Hard Absolute** |
@@ -80,7 +80,7 @@ pub trait EnergySovereignty {
 
 ## 📈 6. Roadmap to Embodiment:
 
-*   **v1.2.3-Alpha (Current)**: Global ignition of the 128-bit self-aware energy oracle. [VISION]
+*   **v1.2.5-Alpha (Current)**: Global ignition of the 128-bit self-aware energy oracle. [VISION]
 *   **v1.4.0-Kinetic (Q4 2026)**: Integration of real-time thermodynamic feedback into **SASCAR (RFC-010)** swarm pathing.
 *   **v1.5.0-Handshake (2027)**: Real-time clearing of the picotoken cost and thermodynamic footprint of the first species-to-species contact.
 

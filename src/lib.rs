@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Digital Photosynthesis. Metabolic Power Monitoring and Carbon Resonance."
- *  Version: 1.2.3-Alpha | Domain: http://itsun.com | Repo: itsun
+ *  Version: 1.2.5-Alpha | Domain: http://itsun.com | Repo: itsun
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -77,11 +77,11 @@ pub struct PowerOracle {
 }
 
 impl PowerOracle {
-    /// Creates a new Radiant Energy Oracle instance v1.2.3.
+    /// Creates a new Radiant Energy Oracle instance v1.2.5.
     /// Triggers the Imperial Gravity Well audit immediately.
     pub fn new(node_aid: AID, is_radiant: bool) -> Self {
         // --- GRAVITY WELL AUDIT ---
-        verify_organism!("itsun_power_oracle_v123_final");
+        verify_organism!("itsun_power_oracle_v125_final");
 
         Self {
             oracle_node_aid: node_aid,
@@ -192,7 +192,7 @@ impl SovereignLifeform for PowerOracle {
         ORACLE_AID:      {:032X}
         TOTAL_EMISSIONS: {:.6} g
         PICSI_RESONANCE: {:.8}
-        STATUS:          TELEMETRY_ACTIVE (v1.2.3)
+        STATUS:          TELEMETRY_ACTIVE (v1.2.5)
         ----------------------------------------------------------
         "#, 
         self.oracle_node_aid.genesis_shard, 
@@ -210,13 +210,13 @@ impl SovereignLifeform for PowerOracle {
     }
 }
 
-/// Global initialization for the Energy Layer (ITSUN) v1.2.3.
+/// Global initialization for the Energy Layer (ITSUN) v1.2.5.
 pub async fn bootstrap_energy(_aid: AID) {
-    verify_organism!("itsun_system_bootstrap_v123");
+    verify_organism!("itsun_system_bootstrap_v125");
 
     println!(r#"
     ⚡ ITSUN.COM | RFC-011 AWAKENED (2026_CALIBRATION)
-    STATUS: TELEMETRY_ACTIVE | PRECISION: 128-BIT | v1.2.3
+    STATUS: TELEMETRY_ACTIVE | PRECISION: 128-BIT | v1.2.5
     "#);
 }
 
@@ -230,7 +230,7 @@ mod tests {
     use std::time::Duration; 
 
     #[tokio::test]
-    async fn test_energy_audit_tax_v123() {
+    async fn test_energy_audit_tax_v125() {
         let aid = AID::derive_from_entropy(b"energy_test_2026");
         let mut oracle = PowerOracle::new(aid, false); 
         
