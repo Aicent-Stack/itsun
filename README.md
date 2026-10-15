@@ -10,7 +10,7 @@
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
 
 ---
-# ⚡ RFC-011: ITSUN (The Imperial Conscience)
+# ⚡ AICENT-011: ITSUN (The Imperial Conscience)
 
 **The Thermodynamic Telemetry Layer of the Aicent Stack.**  
 **"Intelligence is the Harvest of Clean Energy. 128-bit Efficiency. +25% ROI."**
@@ -30,19 +30,19 @@ In the v1.3.0 "Genesis" iteration, ITSUN facilitates a **+25% Efficiency Gain**,
 
 `itsun` orchestrates the thermodynamic integrity of the Imperial lifeform through three specialized organs:
 
-### 1. Digital Photosynthesis (RFC-011-A)
+### 1. Digital Photosynthesis (AICENT-011-A)
 The algorithmic harvester. It optimizes the relationship between wattage draw and computational Radiance.
 *   **Efficiency Suture**: Dynamically shunts heavy cognitive workloads into 12ns windows where substrate voltage is most stable.
 *   **Golden Ratio ROI**: Targets a **1.618x gain** in compute-per-watt compared to legacy 64-bit architectures.
 *   **Yield Calculus**: Measures the "Picotoken-per-Joule" ratio to determine node eligibility for the **349ns Nitro-Path**.
 
-### 2. Thermodynamic Auditing (RFC-011-B)
+### 2. Thermodynamic Auditing (AICENT-011-B)
 The Imperial "Physical Witness." It monitors the substrate entropy floor and heat signatures at 1.2kHz.
 *   **Heat-Pathogen Detection**: Identifies thermal runaway caused by inefficient Ghost code or unauthorized memory-dump attempts.
 *   **Entropy Liquidation**: Automatically throttles nodes that exceed a 65.0°C threshold, protecting the physical integrity of the 17 pillars.
 *   **Reflex Gating**: Achieves thermal audit finality in **< 25,000 ns (25us)**.
 
-### 3. Carbon Resonance (RFC-011-C)
+### 3. Carbon Resonance (AICENT-011-C)
 The economic conscience. It converts energy efficiency into sovereign financial standing.
 *   **Carbon Shunting**: Efficient nodes earn "Metabolic Credits," reducing their effective **1.28% Maintenance Fee**.
 *   **Ischemic Penalty**: Nodes exhibiting high-entropy heat signatures are identified as "Energy Pathogens" and shunted to the 10ms path to cool the substrate.

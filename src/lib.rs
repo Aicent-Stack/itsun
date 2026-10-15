@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-011: ITSUN (The Energy Telemetry Layer)
+ *  AICENT STACK - AICENT-011: ITSUN (The Energy Telemetry Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Digital Photosynthesis. Metabolic Power Monitoring and Carbon Resonance."
@@ -8,8 +8,8 @@
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
  *  CHRONOS_STATUS: 2026 IMPERIAL CALENDAR ALIGNED.
- *  TEMPORAL_SELF_SUPERVISION: RFC-009 ACTIVE.
- *  DIAGNOSTIC_RESONANCE: RFC-014 (PICSI) INTEGRATED.
+ *  TEMPORAL_SELF_SUPERVISION: AICENT-009 ACTIVE.
+ *  DIAGNOSTIC_RESONANCE: AICENT-014 (PICSI) INTEGRATED.
  *  
  *  LEGAL NOTICE: ITSUN GOVERNS THE ENERGY ACCOUNTING OF SOVEREIGN ENTITIES.
  *  FRAGMENTED TELEMETRY WILL TRIGGER 10MS METABOLIC AUDIT TAXES.
@@ -20,7 +20,7 @@ use std::time::Instant;
 use std::collections::VecDeque;
 use serde::{Serialize, Deserialize};
 
-// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (RFC-000)
+// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (AICENT-000)
 // We import 128-bit types and the Gravity Well macro for metabolic verification.
 use epoekie::{AID, HomeostasisScore, SovereignShunter, SovereignLifeform, verify_organism};
 
@@ -31,7 +31,7 @@ use gtiot::{SensorTelemetry};
 // 1. ENERGY DATA STRUCTURES (The Metabolic Pulse)
 // =========================================================================
 
-/// RFC-011: EnergySnapshot
+/// AICENT-011: EnergySnapshot
 /// High-fidelity record of instantaneous power utilization in the 2026 Grid.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct EnergySnapshot {
@@ -42,7 +42,7 @@ pub struct EnergySnapshot {
     pub recorded_at_timestamp_ns: u128,  // IMPERIAL_128_BIT_TIMESTAMP
 }
 
-/// RFC-011: CarbonResonance
+/// AICENT-011: CarbonResonance
 /// Quantitative measurement of the node's environmental impact.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct CarbonResonance {
@@ -51,7 +51,7 @@ pub struct CarbonResonance {
     pub sustainability_index: f64,       // 0.0 to 1.0 (Radiant Green)
 }
 
-/// RFC-011: MetabolicQuota
+/// AICENT-011: MetabolicQuota
 /// Sovereign limits placed on energy consumption for a specific AID.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct MetabolicQuota {
@@ -97,7 +97,7 @@ impl PowerOracle {
         }
     }
 
-    /// RFC-011: Audit Power Consumption
+    /// AICENT-011: Audit Power Consumption
     /// Records an energy snapshot and updates the global carbon resonance.
     /// Non-Radiant nodes suffer a 10ms "Energy Audit Delay" (Metabolic Penalty).
     pub async fn audit_consumption_stream_128(&mut self, mut snapshot: EnergySnapshot) -> Result<f64, String> {
@@ -121,7 +121,7 @@ impl PowerOracle {
         Ok(self.current_resonance.sustainability_index)
     }
 
-    /// RFC-011: Correlate Somatic Telemetry
+    /// AICENT-011: Correlate Somatic Telemetry
     /// REPAIRED: Now fully utilizing the SensorTelemetry type to fix warning.
     pub fn correlate_somatic_efficiency(&self, telemetry: SensorTelemetry) -> f64 {
         println!("[ITSUN] 2026: Correlating torque reading from sensor: {:X?}", telemetry.sensor_id_128);
@@ -184,7 +184,7 @@ impl SovereignLifeform for PowerOracle {
     fn get_aid(&self) -> AID { self.oracle_node_aid }
     fn get_homeostasis(&self) -> HomeostasisScore { self.report_energy_homeostasis() }
     
-    /// RFC-011 Metabolic Pulse
+    /// AICENT-011 Metabolic Pulse
     fn execute_metabolic_pulse(&self) {
         println!(r#"
         ⚡ ITSUN.COM | ENERGY PULSE [2026_IMPERIAL_SYNC]
@@ -215,7 +215,7 @@ pub async fn bootstrap_energy(_aid: AID) {
     verify_organism!("itsun_system_bootstrap_v125");
 
     println!(r#"
-    ⚡ ITSUN.COM | RFC-011 AWAKENED (2026_CALIBRATION)
+    ⚡ ITSUN.COM | AICENT-011 AWAKENED (2026_CALIBRATION)
     STATUS: TELEMETRY_ACTIVE | PRECISION: 128-BIT | v1.2.5
     "#);
 }

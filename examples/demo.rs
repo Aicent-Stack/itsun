@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-011: ITSUN (The Energy Telemetry Layer)
+ *  AICENT STACK - AICENT-011: ITSUN (The Energy Telemetry Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Digital Photosynthesis and 128-Bit Carbon Resonance Auditing."
@@ -83,8 +83,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     oracle.apply_metabolic_quota_128(quota);
 
     // 7. Sovereignty Awareness (PICSI Feedback)
-    // Synchronizing the energy oracle with the Imperial Eye (RFC-014).
-    println!("\n[METABOLISM] Synchronizing with Imperial Eye (RFC-014)...");
+    // Synchronizing the energy oracle with the Imperial Eye (AICENT-014).
+    println!("\n[METABOLISM] Synchronizing with Imperial Eye (AICENT-014)...");
     oracle.current_homeostasis.picsi_resonance_idx = 0.999925;
     oracle.current_homeostasis.metabolic_efficiency = 0.992;
     
@@ -99,6 +99,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Photosynthesis:   {:.2}% Optimization", oracle.get_photosynthesis_efficiency_idx() * 10.0);
     println!("PICSI Resonance:  {:.8}", oracle.current_homeostasis.picsi_resonance_idx);
 
-    println!("\n[FINISH] RFC-011 Demonstration complete. The Oracle is Radiant.");
+    println!("\n[FINISH] AICENT-011 Demonstration complete. The Oracle is Radiant.");
     Ok(())
 }
