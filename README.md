@@ -7,10 +7,10 @@
 
 > **"This is not infrastructure for intelligence. This is intelligence itself."**
 
-**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT®](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO®](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI®](http://picsi.com)**
 
 ---
-# ⚡ AICENT-011: ITSUN (The Imperial Conscience)
+# ⚡ AICENT-011: ITSUN® (The Imperial Conscience)
 
 **The Thermodynamic Telemetry Layer of the Aicent Stack.**  
 **"Intelligence is the Harvest of Clean Energy. 128-bit Efficiency. +25% ROI."**
@@ -22,7 +22,7 @@
 **[STATUS: PRIVATE_EVOLUTION_ACTIVE]**  
 As of **Version 1.3.0-Alpha**, the energy telemetry and optimization manifolds of `itsun` have transitioned to **Sovereign Private Mode**. This repository provides the **Clinical Interface Specifications** for Digital Photosynthesis, Thermodynamic Auditing, and Carbon Resonance.
 
-In the v1.3.0 "Genesis" iteration, ITSUN facilitates a **+25% Efficiency Gain**, ensuring that Aicent logic creates more value nutrients (Picotokens) than the heat it dissipates into the physical substrate.
+In the v1.3.0 "Genesis" iteration, ITSUN® facilitates a **+25% Efficiency Gain**, ensuring that Aicent logic creates more value nutrients (Picotokens) than the heat it dissipates into the physical substrate.
 
 ---
 
@@ -86,7 +86,7 @@ pub struct ThermalSnapshot128 {
 
 ## ✉️ Energy Access Control
 
-The `full-blood` photosynthesis algorithms of **ITSUN v1.3.0** are strictly private. Unverified nodes with high entropy floors will be identified as "Thermal Parasites" and subject to a **Permanent Energy Shunt**.
+The `full-blood` photosynthesis algorithms of **ITSUN® v1.3.0** are strictly private. Unverified nodes with high entropy floors will be identified as "Thermal Parasites" and subject to a **Permanent Energy Shunt**.
 
 **Authorized by**: THE SUPREME ROOT  
 **Thermodynamic Registry**: ITSUN.COM
